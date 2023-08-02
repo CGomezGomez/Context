@@ -2,9 +2,9 @@
 const Button = ({counter  , setCounter , amount }) => {
   return (
 
-    <Button onClick = {() => setCounter(counter + amount)}>
+    <button onClick = {() => setCounter(counter + amount)}>
         Incrementar en {amount} el contador.
-    </Button>
+    </button>
 
   );
 };
